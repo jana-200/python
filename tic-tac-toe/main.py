@@ -2,6 +2,7 @@ import numpy as np
 taille = 3
 matrice = np.full((taille,taille),' * ')
 
+
 def victoire(joueur):
     # Vérifier les lignes
     for i in range(taille):
@@ -68,5 +69,3 @@ while True:
         joueur = 'O'
     else:
         joueur = 'X'
-
-
